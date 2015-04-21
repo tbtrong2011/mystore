@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-afa5f5918c9c802fb03df372d4dbd811627b0fd1.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-0aba70f9b1b0a9d3cf5f0699c5b9c304051e559a.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-ce7728f2ab4457fdbca0b364559d298e83fe510f.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-785902bc889c32aa10200bc078f5824d0af4745c.jar" />
+    </item>
+    <item
+        jar="D:\Working\Android\Environment\xxx\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-ae99b352b4dff2e14f294fb2704e6c70f5400bdd.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-a36af9e39e6271c39b1d9f27d067e23eb80a7958.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-ad3960a6e0bbfdde2d3a5692901f631568726ab0.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-dbde1c483432031b1a4c3a6857a0d2e2cbc106bb.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-36b1c3cfa1877e890a2891f2babb1734f54f6267.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-ff6bcc1bff0b886fe10c386a85d484c44c5729ce.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\Note\slidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="433da89cd9a85ebfb4bb608c440f8dbd39b2874e">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-5ac3bbe2b9d5f2acdf4a2fb63be63f3307e0fa80.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-38dbc8a7935e1c1fdfbf0fcf68f6c30f14a40e8f.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-9c13400e15ebd3d7d663eca9f7623a4da7c34e82.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-043bcbd5c642bb3f47b8983db46d07ae707021e1.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-33f0c9f1c6942f4955d27775279e29efb624c214.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-857906e65ee26d7255754bfc51637cb75fc3eb4f.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-8b80124af488571a40a87da53e09b63899704d6e.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-1339d4b8b0a8c98022d2c612fb67e54a43eb6a26.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-761539d685c06b7ffa9e460e7204b78be8c4c59c.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-f91e21e32e893e006e9bc8285d46671e000bb297.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-2fdadb9e5f36546c1769b4f46b897676ae327821.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-f7b4d9dec62fc8c0cce5f052f3d36641355eb95f.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-59a81499bdbe950bdb0c63130820b88b353f5ffa.jar" />
+    </item>
+    <item
+        jar="D:\Working\Dropbox\Project\Note\note\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="D:\Working\Dropbox\Project\Note\note\build\intermediates\pre-dexed\debug\classes-2957838747e9a0eb63bd759213fb1b8285fc9b49.jar" />
+    </item>
+
+</items>

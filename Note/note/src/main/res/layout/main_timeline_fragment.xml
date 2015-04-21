@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash_screen_img">
+	
+    <LinearLayout 
+        android:id="@+id/header_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout 
+            android:id="@+id/action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50_100"
+            android:background="#3B5998">
+            
+            <ImageView
+		        android:id="@+id/swipe_menu"
+		        android:layout_width="@dimen/dimen_60_120"
+		        android:layout_height="match_parent"
+		        android:contentDescription="@null"
+		        android:padding="@dimen/dimen_1_2"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/swipe_menu_icon" />
+            <ImageView
+                android:id="@+id/home_search"
+                android:layout_width="@dimen/dimen_60_120"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/home_filter"
+                android:contentDescription="@null"
+                android:padding="@dimen/dimen_7_15"
+                android:scaleType="fitCenter"
+                android:src="@drawable/search_white_icon" />
+
+            <ImageView
+                android:id="@+id/home_filter"
+                android:layout_width="@dimen/dimen_60_120"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@null"
+                android:padding="@dimen/dimen_12_24"
+                android:scaleType="fitCenter"
+                android:src="@drawable/filter_white_icon" />
+
+        </RelativeLayout>
+
+        <!--<LinearLayout
+            android:id="@+id/navigate_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50_100"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/home_menu"
+                android:layout_weight="1"
+                android:layout_width="@dimen/dimen_60_120"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:padding="@dimen/dimen_1_2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home_icon" />
+            <ImageView
+                android:id="@+id/smile_menu"
+                android:layout_weight="1"
+                android:layout_width="@dimen/dimen_60_120"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:padding="@dimen/dimen_12_24"
+                android:scaleType="fitCenter"
+                android:src="@drawable/smile_icon" />
+            <ImageView
+                android:id="@+id/sad_menu"
+                android:layout_weight="1"
+                android:layout_width="@dimen/dimen_60_120"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:padding="@dimen/dimen_12_24"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sad_icon" />
+            <ImageView
+                android:id="@+id/add_menu"
+                android:layout_weight="1"
+                android:layout_width="@dimen/dimen_60_120"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:padding="@dimen/dimen_9_18"
+                android:scaleType="fitCenter"
+                android:src="@drawable/add_icon" />
+
+        </LinearLayout>-->
+        
+        <LinearLayout 
+            android:id="@+id/navigate_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <com.astuetz.PagerSlidingTabStrip
+                android:id="@+id/tabs"
+                app:pstsShouldExpand="true"
+                app:pstsTextAllCaps="true"
+                app:pstsIndicatorHeight="@dimen/dimen_5_10"
+                app:pstsIndicatorColor="@color/red"
+                app:pstsUnderlineHeight="0dp"
+                app:pstsDividerColor="@color/transparent"
+                app:pstsDividerPadding="@null"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50_100">
+            </com.astuetz.PagerSlidingTabStrip>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DCDEE3" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

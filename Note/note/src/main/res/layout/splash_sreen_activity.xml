@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash_screen_img"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="@dimen/dimen_150_300"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/dimen_70_140"
+        android:contentDescription="@null"
+        android:padding="@dimen/dimen_10_20"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_icon" />
+
+</RelativeLayout>
