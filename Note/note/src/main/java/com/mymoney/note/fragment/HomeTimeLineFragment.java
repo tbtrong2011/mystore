@@ -14,29 +14,45 @@ import com.mymoney.note.R;
 import com.mymoney.note.activity.MainActivity;
 import com.mymoney.note.adapter.HomeTabStripFragmentPagerAdapter;
 
+import java.util.ArrayList;
+
 public class HomeTimeLineFragment extends BaseFragment implements OnClickListener {
 
 	private ImageView swipeMenu;
+    private PagerSlidingTabStrip tabsStrip;
+    private HomeTabStripFragmentPagerAdapter mAdapterPager;
+    private ArrayList<Object> mArrayData = new ArrayList<Object>();
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.main_timeline_fragment, container, false);
-		swipeMenu = (ImageView) view.findViewById(R.id.swipe_menu);
-
+        swipeMenu = (ImageView) view.findViewById(R.id.swipe_menu);
         ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
-        viewPager.setAdapter(new HomeTabStripFragmentPagerAdapter(getActivity().getSupportFragmentManager()));
+        tabsStrip = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
 
-        // Give the PagerSlidingTabStrip the ViewPager
-        PagerSlidingTabStrip tabsStrip = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
-        // Attach the view pager to the tab strip
+
+        mArrayData.add(MoneyFragment.newInstance(R.drawable.ic_smile));
+        mArrayData.add(NoteFragment.newInstance(R.drawable.ic_sad));
+
+        mAdapterPager = new HomeTabStripFragmentPagerAdapter(getActivity().getSupportFragmentManager(),mArrayData);
+
+        viewPager.setAdapter(mAdapterPager);
         tabsStrip.setViewPager(viewPager);
+
+        swipeMenu.setOnClickListener(this);
+        createEventTabStrip();
+
+		return view;
+	}
+
+    private void createEventTabStrip(){
         tabsStrip.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             // This method will be invoked when a new page becomes selected.
             @Override
             public void onPageSelected(int position) {
                 Toast.makeText(getActivity(),
-                        "Selected page position: " + position, Toast.LENGTH_SHORT).show();
+                        "Selected page : " + position, Toast.LENGTH_SHORT).show();
             }
 
             // This method will be invoked when the current page is scrolled
@@ -52,11 +68,7 @@ public class HomeTimeLineFragment extends BaseFragment implements OnClickListene
                 // Code goes here
             }
         });
-        swipeMenu.setOnClickListener(this);
-
-
-		return view;
-	}
+    }
 
 	@Override
 	public void onClick(View v) {

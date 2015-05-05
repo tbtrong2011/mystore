@@ -24,26 +24,4 @@ public class MainActivity extends BaseSlidingFragmentActivity implements OnClick
 
 	}
 
-//    @Override
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-////        setContentView(R.layout.activity_main);
-//
-//        setContentView(R.layout.main_timeline_fragment);
-//        // Get the ViewPager and set it's PagerAdapter so that it can display items
-//        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-//
-//        viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager()));
-//
-//        // Give the PagerSlidingTabStrip the ViewPager
-//        PagerSlidingTabStrip tabsStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
-//        // Attach the view pager to the tab strip
-//        tabsStrip.setViewPager(viewPager);
-//    }
-//
-//    @Override
-//    public void onClick(View v) {
-//
-//    }
-
 }
