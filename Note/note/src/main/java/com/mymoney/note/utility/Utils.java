@@ -58,9 +58,9 @@ public class Utils {
 		}
 		if (negativeListener != null) {
 			if (negative != null && !negative.equals(""))
-				dialogBuilder.setPositiveButton(negative, negativeListener);
+				dialogBuilder.setNegativeButton(negative, negativeListener);
 			else
-				dialogBuilder.setPositiveButton(context.getString(R.string.no), negativeListener);
+				dialogBuilder.setNegativeButton(context.getString(R.string.no), negativeListener);
 		}
 		dialogBuilder.create().show();
 

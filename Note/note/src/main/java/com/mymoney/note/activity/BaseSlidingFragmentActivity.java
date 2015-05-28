@@ -181,10 +181,10 @@ public abstract class BaseSlidingFragmentActivity extends SlidingFragmentActivit
 
 	@Override
 	public void setHomeContent(Fragment contentFragment, boolean hasRightMenu, int touchMode) {
-		getSupportFragmentManager().beginTransaction()
-				.replace(R.id.main_content, contentFragment, TAG_CONTENT_FRAGMENT).commit();
-
-		getSlidingMenu().setTouchModeAbove(touchMode);
+//		getSupportFragmentManager().beginTransaction()
+//				.replace(R.id.main_content, contentFragment, TAG_CONTENT_FRAGMENT).commit();
+//
+//		getSlidingMenu().setTouchModeAbove(touchMode);
 
 		if (hasRightMenu) {
 			setRightMenuEnable(true);

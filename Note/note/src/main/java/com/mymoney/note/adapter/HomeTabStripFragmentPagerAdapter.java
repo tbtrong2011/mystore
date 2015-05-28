@@ -3,13 +3,11 @@ package com.mymoney.note.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.widget.ListAdapter;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.mymoney.note.R;
 import com.mymoney.note.fragment.MoneyFragment;
 import com.mymoney.note.fragment.NoteFragment;
-import com.mymoney.note.fragment.PageFragment;
 
 import java.util.ArrayList;
 
